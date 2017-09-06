@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "393468397242",
+    "firebase_url": "https://dadoschecklist.firebaseio.com",
+    "project_id": "dadoschecklist",
+    "storage_bucket": "dadoschecklist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393468397242:android:134244d1e240a584",
+        "android_client_info": {
+          "package_name": "com.example.thiag.my_checklist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393468397242-dmk0kgovsdq7p77qkhvt9tvu0qcttds5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg1wNJQBn0eltTeB2SrCFZQoHsbMCXfPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

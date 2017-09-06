@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My_Checklist</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+
+    <string name="Nome_questionario">Nome questionario</string>
+    <!-- Variáveis -->
+    <string name="et_nome">Nome</string>
+    <string name="et_Email">RG</string>
+    <string name="et_Senha">Renda</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <!-- Alert -->
+    <string name="alert_titulo">Confirmação</string>
+    <string name="alert_msg">Você tem certeza que deseja excluir?</string>
+    <string name="alert_botao_sim">Sim</string>
+    <string name="alert_botao_nao">Não</string>
+
+    <string name="alert_alterar_msg">Acrescente uma pergunta ao questionario:</string>
+
+    <!-- Toast -->
+    <string name="toast_sucesso_remocao">Questionario removido com sucesso!</string>
+    <string name="toast_sucesso_adicionar">Questionario cadastrado com sucesso!</string>
+    <string name="toast_sucesso_alterar">Questionario alterado com sucesso!</string>
+    <string name="toast_erro">Preencha os dados corretamente!</string>
+
+
+</resources>

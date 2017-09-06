@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="367dp"
+        android:layout_height="494dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="com.example.thiag.my_checklist.LoginActivity"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/fab_margin"
+            android:layout_marginTop="-56dp"
+            app:srcCompat="@mipmap/check"
+            android:layout_weight="0.34" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-MAIL"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SENHA"
+            android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="log"
+        android:text="LOGIN" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/tvAbreCadastro"
+            android:text="Não tem cadastro? Clique aqui"
+            android:onClick="abrircadastro"
+            android:textSize="15sp" />
+
+</LinearLayout>
